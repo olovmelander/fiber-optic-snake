@@ -1,0 +1,91 @@
+{
+  "generation": "Built-in image generation",
+  "created": "2026-10-01",
+  "assets": [
+    {
+      "id": "golf",
+      "prompt": "Use case: illustration-story. Asset type: original illustration for a refined personal vision board website. Style/medium: sophisticated matte acrylic-gouache painting, strong confident brushed shapes, tactile uncoated paper, elevated viewpoint, fine travel-poster quality. Restrained vibrant palette: burgundy #681D35, eggshell yellow #F6EBC8, cobalt #2447D8, natural moss greens and occasional warm ochre. All people are tiny anonymous adults. Beautiful clear composition and richly textured opaque paint. No artist imitation. No lettering, logos, watermarks, borders, 3D, or gradients. Square 1:1 artwork. Gently rolling autumn golf fairway with a curving smooth green surrounded by textured golden birches and mossy trees. Exactly two tiny adult humans: one golfer and one companion walking together along the fairway, clubs subtly visible. Crisp cobalt blue cast shadows. Spacious pastoral composition.",
+      "source": "original generated artwork"
+    },
+    {
+      "id": "riding",
+      "prompt": "Use case: illustration-story. Asset type: original illustration for a refined personal vision board website. Style/medium: sophisticated matte acrylic-gouache painting, strong confident brushed shapes, tactile uncoated paper, elevated viewpoint, fine travel-poster quality. Restrained vibrant palette: burgundy #681D35, eggshell yellow #F6EBC8, cobalt #2447D8, natural moss greens and occasional warm ochre. All people are tiny anonymous adults. Beautiful clear composition and richly textured opaque paint. No artist imitation. No lettering, logos, watermarks, borders, 3D, or gradients. Square 1:1 artwork. Warm ochre riding arena at an intimate timber stable, autumn trees behind. Exactly one calm horse carrying one helmeted adult rider. An adult instructor stands beside the horse. One adult companion watches from a timber fence. Total three tiny adults and one horse. Quiet supportive atmosphere, distinct enclosed arena composition.",
+      "source": "original generated artwork"
+    },
+    {
+      "id": "vemdalen",
+      "prompt": "Use case: illustration-story. Asset type: original illustration for a refined personal vision board website. Style/medium: sophisticated matte acrylic-gouache painting, strong confident brushed shapes, tactile uncoated paper, elevated viewpoint, fine travel-poster quality. Restrained vibrant palette: burgundy #681D35, eggshell yellow #F6EBC8, cobalt #2447D8, natural moss greens and occasional warm ochre. All people are tiny anonymous adults. Beautiful clear composition and richly textured opaque paint. No artist imitation. No lettering, logos, watermarks, borders, 3D, or gradients. Landscape 3:2 artwork. Two tiny adult skiers in a broad snowy rounded Swedish mountain landscape evoking Vemdalen. Gentle rolling treeless fell silhouettes, fir forest slopes, one small burgundy timber cabin. Wide eggshell snow fields with crisp cobalt blue shadows and ski tracks. Swedish rounded mountains only: no Alpine peaks, no steep jagged rocky mountains. Bright calm winter travel-poster atmosphere.",
+      "source": "original generated artwork"
+    },
+    {
+      "id": "north",
+      "prompt": "Use case: illustration-story. Asset type: original illustration for a refined personal vision board website. Style/medium: sophisticated matte acrylic-gouache painting, strong confident brushed shapes, tactile uncoated paper, elevated viewpoint, fine travel-poster quality. Restrained vibrant palette: burgundy #681D35, eggshell yellow #F6EBC8, cobalt #2447D8, natural moss greens and occasional warm ochre. All people are tiny anonymous adults. Beautiful clear composition and richly textured opaque paint. No artist imitation. No lettering, logos, watermarks, borders, 3D, or gradients. Portrait 4:5 artwork. Impressionistic northern Swedish landscape evoking Billsta near Örnsköldsvik: a gently winding country road through tall pines and golden autumn birches towards a deep cobalt-blue coastal inlet, scattered red timber homes. A tiny pair of adults walks along the road. Expansive distant forested hills, inviting autumn gold. Generic evocative landscape; do not invent any identifiable landmark.",
+      "source": "original generated artwork"
+    },
+    {
+      "id": "modo",
+      "prompt": "Use case: illustration-story. Asset type: original illustration for a refined personal vision board website. Style/medium: sophisticated matte acrylic-gouache painting, strong confident brushed shapes, tactile uncoated paper, elevated viewpoint, fine travel-poster quality. Restrained vibrant palette: burgundy #681D35, eggshell yellow #F6EBC8, cobalt #2447D8, natural moss greens and occasional warm ochre. All people are tiny anonymous adults. Beautiful clear composition and richly textured opaque paint. No artist imitation. No lettering, logos, watermarks, borders, 3D, or gradients. Landscape 3:2 artwork. Ice hockey rink viewed from high spectator seats in an indoor arena. Bright eggshell-colored ice, carefully rendered simple blue and red rink lines, tiny adult hockey players in action, burgundy seating, a few anonymous adult fans with red scarves seen from behind in foreground. Exciting but cozy hockey evening. Absolutely NO team logos, NO text, NO advertising, NO scoreboard or invented signage.",
+      "source": "original generated artwork"
+    },
+    {
+      "id": "forest",
+      "prompt": "Use case: illustration-story. Asset type: original illustration for a refined personal vision board website. Style/medium: sophisticated matte acrylic-gouache painting, strong confident brushed shapes, tactile uncoated paper, elevated viewpoint, fine travel-poster quality. Restrained vibrant palette: burgundy #681D35, eggshell yellow #F6EBC8, cobalt #2447D8, natural moss greens and occasional warm ochre. All people are tiny anonymous adults. Beautiful clear composition and richly textured opaque paint. No artist imitation. No lettering, logos, watermarks, borders, 3D, or gradients. Portrait 4:5 artwork. Intimate winding woodland path under tall Swedish pines and golden autumn birches. Two tiny anonymous adults walking together, seen from behind far along the curving path. Inviting warm sunlight falling as broad eggshell and ochre shapes, cobalt shadow areas, richly layered moss and burgundy autumn undergrowth. Dense immersive forest composition, vertical tall tree trunks, no buildings and no water.",
+      "source": "original generated artwork"
+    },
+    {
+      "id": "running",
+      "prompt": "Use case: illustration-story. Asset type: original illustration for a refined personal vision board website. Style/medium: sophisticated matte acrylic-gouache painting, strong confident brushed shapes, tactile uncoated paper, elevated viewpoint, fine travel-poster quality. Restrained vibrant palette: burgundy #681D35, eggshell yellow #F6EBC8, cobalt #2447D8, natural moss greens and occasional warm ochre. All people are tiny anonymous adults. Beautiful clear composition and richly textured opaque paint. No artist imitation. No lettering, logos, watermarks, borders, 3D, or gradients. Landscape 3:2 artwork. Two tiny anonymous adult runners side by side on a gently curving waterside wooded trail in Swedish autumn light. Relaxed companionable jogging, no racing. Cobalt blue water alongside the trail, moss-green pines and golden birches, burgundy and eggshell colored running clothing. Broad warm light patches on an ochre trail. Figures remain small within a spacious elevated-view landscape.",
+      "source": "original generated artwork"
+    },
+    {
+      "id": "beef",
+      "prompt": "Use case: illustration-story. Asset type: original editorial illustration for the Good Vibes Only personal vision board website. Style/medium: sophisticated matte acrylic-gouache painting, strong confident brush shapes, tactile paper texture, beautifully composed, graphic simplification with charming observational detail. Color palette: restrained vibrant burgundy #681D35, eggshell yellow #F6EBC8, cobalt #2447D8, with warm ochre and natural accents. Opaque painted color shapes, subtle dry-brush texture. No lettering, text, logos or watermarks. No 3D, no gradients. Entire image is artwork, no borders, no page layout. Landscape 3:2 composition. Overhead view of a burgundy Dutch oven filled with rich boeuf bourguignon stew, mushrooms and carrots clearly visible, bread and two inviting bowls arranged on a warm yellow table. Warm and generous home-cooked dinner, quiet sophisticated composition.",
+      "source": "original generated artwork"
+    },
+    {
+      "id": "friends",
+      "prompt": "Use case: illustration-story. Asset type: original editorial illustration for the Good Vibes Only personal vision board website. Style/medium: sophisticated matte acrylic-gouache painting, strong confident brush shapes, tactile paper texture, beautifully composed, graphic simplification with charming observational detail. Color palette: restrained vibrant burgundy #681D35, eggshell yellow #F6EBC8, cobalt #2447D8, with warm ochre and natural accents. Opaque painted color shapes, subtle dry-brush texture. No lettering, text, logos or watermarks. No 3D, no gradients. Entire image is artwork, no borders, no page layout. Landscape 3:2 composition. Overhead intimate dinner party with exactly six anonymous adults around a warm eggshell-yellow dining table, mismatched cobalt plates, burgundy napkins, candles, shared dishes and glasses. Lively togetherness conveyed by relaxed gestures and tilted heads. Anonymous softly simplified faces. A beautifully balanced composition rich in warmth and friendship.",
+      "source": "original generated artwork"
+    },
+    {
+      "id": "cinema",
+      "prompt": "Use case: illustration-story. Asset type: original editorial illustration for the Good Vibes Only personal vision board website. Style/medium: sophisticated matte acrylic-gouache painting, strong confident brush shapes, tactile paper texture, beautifully composed, graphic simplification with charming observational detail. Color palette: restrained vibrant burgundy #681D35, eggshell yellow #F6EBC8, cobalt #2447D8, with warm ochre and natural accents. Opaque painted color shapes, subtle dry-brush texture. No lettering, text, logos or watermarks. No 3D, no gradients. Entire image is artwork, no borders, no page layout. Square composition. Cozy burgundy movie theater seats viewed from an elevated rear angle. Two small anonymous adult viewers sit together with popcorn, looking toward a glowing blank cobalt movie screen. Rich rows of empty burgundy seats frame the couple, luminous eggshell-yellow highlights. The screen is entirely blank painted cobalt, no writing and no depicted movie. Intimate cinematic atmosphere.",
+      "source": "original generated artwork"
+    },
+    {
+      "id": "sofa",
+      "prompt": "Use case: illustration-story. Asset type: original editorial illustration for the Good Vibes Only personal vision board website. Style/medium: sophisticated matte acrylic-gouache painting, strong confident brush shapes, tactile paper texture, beautifully composed, graphic simplification with charming observational detail. Color palette: restrained vibrant burgundy #681D35, eggshell yellow #F6EBC8, cobalt #2447D8, with warm ochre and natural accents. Opaque painted color shapes, subtle dry-brush texture. No lettering, text, logos or watermarks. No 3D, no gradients. Entire image is artwork, no borders, no page layout. Landscape 3:2 composition. A sculptural burgundy sofa with cobalt cushion and an open book in a sophisticated cozy Scandinavian interior. Warm eggshell-yellow walls and bold bright geometric window shadows. No people. Confident architectural composition with space to breathe, beautiful warm inviting everyday interior.",
+      "source": "original generated artwork"
+    },
+    {
+      "id": "apartments",
+      "prompt": "Use case: illustration-story. Asset type: original editorial illustration for the Good Vibes Only personal vision board website. Style/medium: sophisticated matte acrylic-gouache painting, strong confident brush shapes, tactile paper texture, beautifully composed, graphic simplification with charming observational detail. Color palette: restrained vibrant burgundy #681D35, eggshell yellow #F6EBC8, cobalt #2447D8, with warm ochre and natural accents. Opaque painted color shapes, subtle dry-brush texture. No lettering, text, logos or watermarks. No 3D, no gradients. Entire image is artwork, no borders, no page layout. Portrait 4:5 composition. Two tiny anonymous adults inspecting an airy Swedish apartment together, high windows, warm parquet floors, cobalt geometric shadows and an open doorway into another sunlit room. Uncluttered understated Scandinavian architecture. Warm, hopeful feeling of finding a home; architecture dominates and people are small in frame. This is an imagined apartment, with no real listing claim.",
+      "source": "original generated artwork"
+    },
+    {
+      "id": "bruce",
+      "prompt": "Use case: illustration-story. Asset type: original editorial illustration for the Good Vibes Only personal vision board website. Style/medium: sophisticated matte acrylic-gouache painting, strong confident brush shapes, tactile paper texture, beautifully composed, graphic simplification with charming observational detail. Color palette: restrained vibrant burgundy #681D35, eggshell yellow #F6EBC8, cobalt #2447D8, with warm ochre and natural accents. Opaque painted color shapes, subtle dry-brush texture. No lettering, text, logos or watermarks. No 3D, no gradients. Entire image is artwork, no borders, no page layout. Square composition. A welcoming boutique fitness studio, small group class with two anonymous adult partners among the participants. Mats and light dumbbell weights, warm eggshell-yellow walls, cobalt and burgundy exercise clothes. Adults in simple natural exercise poses, inclusive friendly group atmosphere, beautiful geometric studio interior with soft daylight. No signage, logos, or exercise text.",
+      "source": "original generated artwork"
+    },
+    {
+      "id": "fun",
+      "prompt": "Use case: illustration-story. Asset type: original editorial illustration for the Good Vibes Only personal vision board website. Style/medium: sophisticated matte acrylic-gouache painting, strong confident brush shapes, tactile paper texture, beautifully composed, graphic simplification with charming observational detail. Color palette: restrained vibrant burgundy #681D35, eggshell yellow #F6EBC8, cobalt #2447D8, with warm ochre and natural accents. Opaque painted color shapes, subtle dry-brush texture. No lettering, text, logos or watermarks. No 3D, no gradients. Entire image is artwork, no borders, no page layout. Square composition. Two anonymous adults laughing and spontaneously dancing together in a warm living room. Burgundy sofa partly visible and cobalt record player on a cabinet. Bright graphic afternoon light creates bold warm shapes on the eggshell-yellow walls and floor. A playful, unposed adult moment, lively relaxed gestures, painterly simplified faces and forms.",
+      "source": "original generated artwork"
+    },
+    {
+      "id": "pisa",
+      "source": "original generated artwork, approved direction study",
+      "prompt_summary": "Pisa tower and cathedral in autumn, two tiny walking adults, portrait. Matte acrylic gouache, visible paper grain, burgundy/eggshell/cobalt palette, no lettering."
+    },
+    {
+      "id": "sauna",
+      "source": "original generated artwork, approved direction study",
+      "prompt_summary": "Burgundy timber sauna beside cobalt water, snowy pines and two adults at a dock, landscape. Matte acrylic gouache, visible paper grain, burgundy/eggshell/cobalt palette, no lettering."
+    },
+    {
+      "id": "breakfast",
+      "source": "original generated artwork, approved direction study",
+      "prompt_summary": "Two cobalt coffee cups, bread, eggs, butter and pears on an eggshell breakfast table, square. Matte acrylic gouache, visible paper grain, burgundy/eggshell/cobalt palette, no lettering."
+    }
+  ]
+}

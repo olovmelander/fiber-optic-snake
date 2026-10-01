@@ -1,0 +1,30 @@
+from pathlib import Path
+from html import escape
+import json
+root=Path(__file__).resolve().parents[1]
+visions=json.loads((root/'visions.json').read_text())
+lookup={x['id']:x for x in visions}
+order=['pisa','breakfast','golf','riding','beef','friends','sofa','apartments','cinema','forest','running','bruce','sauna','north','modo','vemdalen','fun']
+def card(id):
+ v=lookup[id];num=order.index(id)+1
+ loading='eager' if num<=2 else 'lazy'
+ priority=' fetchpriority="high"' if num==1 else ''
+ mobile='calc((100vw - 60px) / 2)' if id in ['golf','riding','sofa','apartments'] else ('50vw' if id=='breakfast' else ('70vw' if id in ['bruce','fun'] else 'calc(100vw - 40px)'))
+ desktop='57vw' if id in ['pisa','sauna'] else ('48vw' if id in ['golf','riding','beef','running','vemdalen'] else ('32vw' if id in ['breakfast','sofa','apartments','cinema','north','fun'] else '40vw'))
+ sizes=f'(max-width: 700px) {mobile}, {desktop}' 
+ return f'''<figure class="vision {id}" id="vision-{id}"><a class="art-link" data-artwork="{id}" href="./assets/visions/{id}-1440.webp" aria-label="Visa {escape(v['title'])} i större format"><img class="art" src="./assets/visions/{id}-960.webp" srcset="./assets/visions/{id}-480.webp 480w, ./assets/visions/{id}-960.webp 960w, ./assets/visions/{id}-1440.webp 1440w" sizes="{sizes}" width="{v['width']}" height="{v['height']}" alt="{escape(v['alt'])}" loading="{loading}" decoding="async"{priority}></a><figcaption class="caption"><h3>{escape(v['title'])}</h3><span class="number" aria-hidden="true">{num:02}</span><p>{escape(v['caption'])}</p></figcaption></figure>'''
+def chapter(id,num,title,cls,ids,extra=''):
+ return f'<section class="chapter {cls}" aria-labelledby="{id}"><header class="chapter-head"><span class="eyebrow">{num}</span><h2 id="{id}">{title}</h2></header><div class="{cls}-grid">'+''.join(card(i) for i in ids)+'</div>'+extra+'</section>'
+html='''<!doctype html>
+<html lang="sv"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width, initial-scale=1"><meta name="theme-color" content="#F6EBC8"><title>Good Vibes Only — Resten av 2026</title><meta name="description" content="Stora planer. Små stunder. Sjutton saker att längta till under hösten och vintern 2026."><meta name="color-scheme" content="light"><link rel="icon" type="image/svg+xml" href="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 40 40'%3E%3Crect width='40' height='40' rx='8' fill='%23681D35'/%3E%3Ctext x='20' y='29' text-anchor='middle' font-family='Helvetica,Arial,sans-serif' font-weight='700' font-size='29' fill='%23F6EBC8'%3EG%3C/text%3E%3C/svg%3E"><link rel="stylesheet" href="./styles.css"><script defer src="./app.js"></script></head>
+<body id="top"><a class="skip-link" href="#visioner">Hoppa till visionerna</a><div class="shell"><header class="topbar"><a class="small-logo" href="#top" aria-label="Good Vibes Only, till toppen">Good Vibes Only</a><p class="season">Hösten &amp; vintern 2026</p><a class="board-link" href="#visioner">Våra 17 visioner</a></header><main><div class="masthead"><h1>Good Vibes Only</h1><div class="masthead-meta"><p>Stora planer.<br>Små stunder.</p><p class="dedication">Olov &amp; Susanna<br><span>Resten av 2026</span></p></div></div><section class="opening" id="visioner" aria-labelledby="opening-title"><h2 class="sr-only" id="opening-title">Våra visioner</h2>'''
+html+=card('pisa')+card('breakfast')+'<div class="opening-note"><p class="note-text">Lite längre<br>helger.<br>Lite mer vi.</p><p class="note-meta">17 saker att längta till</p></div></section>'
+html+='<section class="chapter paired" aria-labelledby="tillsammans"><header class="chapter-head"><span class="eyebrow">01 / Din värld, min värld</span><h2 id="tillsammans">Vi följer med varandra.</h2></header><div class="pair-grid">'+card('golf')+card('riding')+'</div><p class="quote">Det fina är att<br>göra det ihop.</p></section>'
+html+=chapter('vardag','02 / Goda kvällar','Det lilla är det stora.','life',['beef','friends','sofa','apartments','cinema'])
+html+=chapter('utomhus','03 / Mer energi','Ut. Andas. Tillsammans.','nature',['forest','running','bruce'])
+html+='</main></div><section class="winter" aria-labelledby="vinter"><div class="winter-inner"><header class="chapter-head"><span class="eyebrow">04 / När luften blir kall</span><h2 id="vinter">Varma minnen.<br>Kalla kinder.</h2></header><div class="winter-grid">'
+html+=''.join(card(i) for i in ['sauna','north','modo','vemdalen'])+'</div></div></section><div class="shell"><section class="finale" aria-labelledby="mera"><div class="closing-copy"><h2 id="mera">Mer av<br>det här.</h2><p>En höst. En vinter.<br>Och allt det fina däremellan.</p></div>'+card('fun')+'</section><footer class="footer"><p>Good Vibes Only<br>Vår höst &amp; vinter, 2026.</p><a href="#top">Till toppen</a></footer></div>'
+html+='''<dialog id="artwork-dialog" class="gallery-dialog" aria-labelledby="dialog-title" aria-describedby="dialog-caption"><div class="dialog-inner"><div class="dialog-bar"><p class="dialog-counter" aria-live="polite"></p><button class="text-button" data-close type="button">Stäng</button></div><div class="dialog-stage" aria-busy="false"><img class="dialog-image" alt=""><div class="dialog-status" role="status" hidden><p></p><button type="button" class="text-button" data-retry hidden>Försök igen</button></div></div><div class="dialog-bottom"><div aria-live="polite"><h2 class="dialog-title" id="dialog-title"></h2><p class="dialog-caption" id="dialog-caption"></p></div><nav class="dialog-nav" aria-label="Bläddra bland visionerna"><button class="text-button" data-previous type="button">Föregående</button><button class="text-button" data-next type="button">Nästa</button></nav></div></div></dialog></body></html>'''
+html=html.replace('</header><main>', '</header></div><main><div class="shell">').replace('</main></div><section', '</div><section').replace('</section><footer', '</section></div></main><div class="shell"><footer')
+(root/'dist/index.html').write_text(html)
+print('Rendered 17 visions.')
