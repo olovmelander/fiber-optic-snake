@@ -1,0 +1,138 @@
+[
+  {
+    "id": "pisa",
+    "title": "Weekend i Pisa",
+    "caption": "Lite vilse. Väldigt rätt.",
+    "alt": "Målad vy av tornet och katedralen i Pisa bland höstträd.",
+    "width": 1122,
+    "height": 1402
+  },
+  {
+    "id": "golf",
+    "title": "En golfrunda tillsammans",
+    "caption": "En runda i din värld.",
+    "alt": "En golfare och en följeslagare på en böljande golfbana i höstljus.",
+    "width": 1254,
+    "height": 1254
+  },
+  {
+    "id": "riding",
+    "title": "En ridlektion tillsammans",
+    "caption": "Och en stund i din.",
+    "alt": "En ryttare med instruktör och en följeslagare vid ridbanans staket.",
+    "width": 1254,
+    "height": 1254
+  },
+  {
+    "id": "vemdalen",
+    "title": "Skidor i Vemdalen",
+    "caption": "Kalla kinder. Varma pauser.",
+    "alt": "Två skidåkare bland snötäckta, rundade fjäll och granskog.",
+    "width": 1536,
+    "height": 1024
+  },
+  {
+    "id": "north",
+    "title": "Billsta & Örnsköldsvik",
+    "caption": "Norrut en stund.",
+    "alt": "En slingrande väg genom norrländsk höstskog mot röda hus och blått vatten.",
+    "width": 1122,
+    "height": 1402
+  },
+  {
+    "id": "modo",
+    "title": "En kväll med Modo",
+    "caption": "En kväll på läktaren.",
+    "alt": "Ishockey sedd från läktaren, med röda halsdukar och ljus is.",
+    "width": 1536,
+    "height": 1024
+  },
+  {
+    "id": "beef",
+    "title": "Boeuf bourguignon",
+    "caption": "Låt middagen ta tid.",
+    "alt": "En gryta boeuf bourguignon med bröd och två skålar på bordet.",
+    "width": 1536,
+    "height": 1024
+  },
+  {
+    "id": "friends",
+    "title": "Vänner runt bordet",
+    "caption": "Plats för en till.",
+    "alt": "Vänner runt ett dukat middagsbord med blå tallrikar och levande ljus.",
+    "width": 1536,
+    "height": 1024
+  },
+  {
+    "id": "cinema",
+    "title": "En kväll på bio",
+    "caption": "En film. Extra popcorn.",
+    "alt": "Två biobesökare bland vinröda stolar framför en blå filmduk.",
+    "width": 1254,
+    "height": 1254
+  },
+  {
+    "id": "forest",
+    "title": "Ut i skogen",
+    "caption": "Ingen brådska hem.",
+    "alt": "Två personer på en stig bland höstbjörkar och höga tallar.",
+    "width": 1122,
+    "height": 1402
+  },
+  {
+    "id": "sofa",
+    "title": "En ny soffa",
+    "caption": "En ny favoritplats.",
+    "alt": "En vinröd soffa med blå kudde i ett solbelyst rum.",
+    "width": 1536,
+    "height": 1024
+  },
+  {
+    "id": "apartments",
+    "title": "Titta på lägenheter",
+    "caption": "Tänk om vi bodde här.",
+    "alt": "Två personer tittar in i en ljus lägenhet med trägolv.",
+    "width": 1122,
+    "height": 1402
+  },
+  {
+    "id": "bruce",
+    "title": "Ett Bruce-pass ihop",
+    "caption": "Samma pass. Eget tempo.",
+    "alt": "En liten grupp som tränar tillsammans i en varm, ljus studio.",
+    "width": 1254,
+    "height": 1254
+  },
+  {
+    "id": "sauna",
+    "title": "Bastu & vinterbad",
+    "caption": "Varmt. Kallt. Tillsammans.",
+    "alt": "En röd bastu, snöiga granar och två personer vid en brygga i blått vintervatten.",
+    "width": 1536,
+    "height": 1024
+  },
+  {
+    "id": "running",
+    "title": "En löptur tillsammans",
+    "caption": "Kilometrar i prattempo.",
+    "alt": "Två personer springer tillsammans längs en skogsstig vid vattnet.",
+    "width": 1536,
+    "height": 1024
+  },
+  {
+    "id": "fun",
+    "title": "Bara ha kul",
+    "caption": "Mer av det här.",
+    "alt": "Två personer skrattar och dansar i ett varmt vardagsrum.",
+    "width": 1254,
+    "height": 1254
+  },
+  {
+    "id": "breakfast",
+    "title": "Lång helgfrukost",
+    "caption": "En morgon utan brådska.",
+    "alt": "En långsam frukost med två blå kaffekoppar, ägg, bröd och frukt.",
+    "width": 1200,
+    "height": 1200
+  }
+]

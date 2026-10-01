@@ -1,0 +1,13 @@
+{
+  "name": "good-vibes-only",
+  "version": "1.0.0",
+  "private": true,
+  "type": "module",
+  "scripts": {
+    "dev": "vite --config vite.config.mjs",
+    "check": "node scripts/check.mjs"
+  },
+  "devDependencies": {
+    "vite": "6.3.5"
+  }
+}
